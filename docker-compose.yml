@@ -9,7 +9,7 @@ services:
     depends_on:
       - db
     environment:
-      - DATABASE_URL=postgresql+psycopg2://postgres:4190263435@db:5432/mydb
+      - DATABASE_URL=postgresql+psycopg2://postgres:4190263435@db:5432/havirkesht_db
 
   db:
     image: postgres:15
