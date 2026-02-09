@@ -124,8 +124,7 @@ def delete_user(user_id: int, db: Session = Depends(get_db),
 @router.post("/login")
 def login(
     form_data: OAuth2PasswordRequestForm = Depends(),
-    db: Session = Depends(get_db),
-):
+    db: Session = Depends(get_db)):
     user = get_user_by_username(db, form_data.username)
     if not user:
         raise HTTPException(status_code=401, detail="Invalid username or password")
