@@ -19,28 +19,6 @@
 - **Cloudflare (SSL + CDN)**
 
 ---
-
-##  ساختار کلی پروژه
-
-```text
-HAVIRKESHT/
-│── app/
-│   ├── main.py
-│   ├── database.py
-│   ├── models/
-│   ├── schemas/
-│   ├── routers/
-│   ├── core/
-│   └── utils/
-│
-│── alembic/
-│── requirements.txt
-│── Dockerfile
-│── docker-compose.yml
-│── README.md
-
----
-
 ## احراز هویت
 این پروژه از JWT برای احراز هویت استفاده می‌کند:
 
@@ -64,7 +42,6 @@ https://meysam-maleki.ir/docs
 OpenAPI JSON
 https://meysam-maleki.ir/openapi.json
 
-
 ---
 
 ## نصب وابستگی ها
@@ -72,3 +49,24 @@ pip install -r requirements.txt
 
 ## اجرای سرور توسعه
 uvicorn app.main:app --reload
+##  ساختار کلی پروژه
+
+```text
+HAVIRKESHT/
+│── app/
+│   ├── main.py
+│   ├── database.py
+│   ├── models/
+│   ├── schemas/
+│   ├── routers/
+│   ├── core/
+│   └── utils/
+│
+│── alembic/
+│── requirements.txt
+│── Dockerfile
+│── docker-compose.yml
+│── README.md
+
+
+
