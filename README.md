@@ -56,6 +56,11 @@ https://meysam-maleki.ir/openapi.json
 
 ---
 
+## اعمال تغییرات در سرور به صورت خودکار (CI/CD)
+![CI/CD](images/CI-CD.png)
+
+---
+
 ## نصب وابستگی ها
 pip install -r requirements.txt
 
