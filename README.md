@@ -52,7 +52,7 @@ https://meysam-maleki.ir/openapi.json
 ---
 
 ## قرار دادن پروژه در Github Repository
-![Clouflare](images/github.png)
+![Github](images/github.png)
 
 ---
 
@@ -67,23 +67,4 @@ uvicorn app.main:app --reload
 ---
 
 ##  ساختار کلی پروژه
-
-```text
-HAVIRKESHT/
-│── app/
-│   ├── main.py
-│   ├── database.py
-│   ├── models/
-│   ├── schemas/
-│   ├── routers/
-│   ├── core/
-│   └── utils/
-│
-│── alembic/
-│── requirements.txt
-│── Dockerfile
-│── docker-compose.yml
-│── README.md
-
-
-
+![Structure](images/structure.png)
