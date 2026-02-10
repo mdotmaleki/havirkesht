@@ -22,16 +22,13 @@
 - **Cloudflare (SSL + CDN)**
 
 ---
+
 ## احراز هویت
 این پروژه از JWT برای احراز هویت استفاده می‌کند:
 
-ثبت‌نام کاربر
+رمزنگاری پسورد ها با استفاده از الگوریتم bcrypt انجام می شود
 
-ورود کاربر
-
-دریافت توکن
-
-محافظت از مسیرها با OAuth2PasswordBearer
+محافظت از مسیرها با OAuth2PasswordBearer انجام می شود
 
 ---
 
@@ -64,8 +61,14 @@ https://meysam-maleki.ir/openapi.json
 
 ---
 
+##  ساختار کلی پروژه
+![Structure](images/structure.png)
+
+---
+
 ## نصب وابستگی ها
 pip install -r requirements.txt
+![Requirements](images/requirements.png)
 
 ---
 
@@ -74,5 +77,3 @@ uvicorn app.main:app --reload
 
 ---
 
-##  ساختار کلی پروژه
-![Structure](images/structure.png)
