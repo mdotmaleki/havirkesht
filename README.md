@@ -47,14 +47,25 @@ https://meysam-maleki.ir/openapi.json
 ## مدیریت دامنه با Cloudflare
 ![Clouflare](images/cloudflare.png)
 
+---
+
+---
+
+## قرار دادن پروژه در Github Repository
+![Clouflare](images/github.png)
 
 ---
 
 ## نصب وابستگی ها
 pip install -r requirements.txt
 
+---
+
 ## اجرای سرور توسعه
 uvicorn app.main:app --reload
+
+---
+
 ##  ساختار کلی پروژه
 
 ```text
