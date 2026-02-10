@@ -44,6 +44,12 @@ https://meysam-maleki.ir/openapi.json
 
 ---
 
+## مدیریت دامنه با Cloudflare
+![Clouflare](images/cloudflare.png)
+
+
+---
+
 ## نصب وابستگی ها
 pip install -r requirements.txt
 
