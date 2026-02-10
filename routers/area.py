@@ -10,8 +10,7 @@ router = APIRouter(
 )
 
 @router.post("/provinces/", response_model=schemas.Province)
-def create_province(province: schemas.ProvinceCreate, db: Session = Depends(get_db),
-                    current_user: schemas.User = Depends(get_current_user)):
+def create_province(province: schemas.ProvinceCreate, db: Session = Depends(get_db)):
     return crud.create_province(db=db, province=province)
 
 @router.get("/provinces/{province_id}", response_model=schemas.Province)
